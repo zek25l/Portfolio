@@ -1,0 +1,55 @@
+body {
+    color: white;
+    background-image: url("WebsiteBg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.MainText {
+    font-size: 70px;
+}
+.MainText2 {
+    font-size: 60px;
+}
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #111111;
+    padding: 12px 32px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid #222;
+}
+.card {
+    background: #111111;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 0.2;
+    text-align: center;
+}
+.card2 {
+    background: #111111;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+.card:hover {
+    background: #d6d6da;
+    color: black;
+}
+.card2:hover {
+    background: #d6d6da;
+    color: black;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
