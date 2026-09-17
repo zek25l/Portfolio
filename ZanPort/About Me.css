@@ -1,0 +1,117 @@
+body {
+    color: white;
+    background-image: url("WebsiteBg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.MainText {
+    font-size: 70px;
+}
+.MainText2 {
+    font-size: 60px;
+}
+.navBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #111111;
+    padding: 12px 32px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid #222;
+    gap: 20px;
+}
+.card, .card2 {
+    background: #111111;
+    color: white;
+    padding: 14px 28px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.25s ease;
+    border: 1px solid #333;
+}
+.card:hover {
+    background: #d6d6da;
+    color: black;
+    transform: translateY(-3px);
+}
+.card2:hover {
+    background: #d6d6da;
+    color: black;
+    transform: translateY(-3px);
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+.MiniTextP {
+    font-size: 20px;
+    text-align: center;
+}
+.service1 {
+    background: #111111;
+    color: white;
+    padding: 25px 20px;
+    border-radius: 12px;
+    text-align: center;
+    width: 240px;
+    border: 1px solid #333;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: 0.25s ease;
+}
+
+.service1:hover {
+    transform: translateY(-5px);
+    border-color: #555;
+}
+
+.service-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.textchange2 {
+    color: #3dc906;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.textchange1 {
+    color: #f7f7f7;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.buyButton1 {
+    background: #363636;
+    color: white;
+    width: 140px;
+    height: 48px;
+    border: 2px solid #525151;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.buyButton1:hover {
+    background: #525151;
+    border-color: #777;
+    transform: scale(1.05);
+}
